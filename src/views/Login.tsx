@@ -34,11 +34,6 @@ export default function Login() {
                 {visiblePassword ? 
                   <EyeSlashIcon className="absolute w-5 h-5 top-2.5 right-2.5 cursor-pointer" onClick={() => setVisiblePassword(false)}/>
                   : <EyeIcon className="absolute w-5 h-5 top-2.5 right-2.5 cursor-pointer" onClick={() => setVisiblePassword(true)}/> }
-                
-                <p className="flex items-start mt-2 text-xs text-[#797979] font-semibold">
-                  <ExclamationCircleIcon className="h-4 w-4 mr-1 text-[#797979]" />
-                  Utilice al menos 8 caracteres, una mayúscula, una minúscula y un número.
-                </p>
               </div>
             </div>
           </div>
