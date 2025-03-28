@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import { ExclamationCircleIcon, EyeIcon, EyeSlashIcon } from '@heroicons/react/16/solid'
+import { EyeIcon, EyeSlashIcon } from '@heroicons/react/16/solid'
 
 export default function Login() {
 
